@@ -2,7 +2,7 @@
 
 To install the widget you need to do the following:
 
-1. Download an XML update set - **Signature Pad Widget.xml**. You can get the file from this repo or [download](https://s3.amazonaws.com/dev-labs.io/signature-pad/Signature+Pad+Widget.xml) it instantly.
+1. Download an XML update set - **Signature Pad Widget.xml**. You can get the file from this repo or [download](https://s3.amazonaws.com/dev-labs.io/signature-pad/Signature+Pad+Widget+1.1.xml) it instantly.
 2. Import the update set into your ServiceNow instance: navigate to **System Update Sets > Retrieved Update Sets**, select **Import Update Set from XML**, and upload the XML file.
 3. Preview and commit the imported update set.
 
@@ -60,3 +60,7 @@ Advanced version of the widget includes the following functionality:
 3. PDF support
 
 For more details about the advanced version or if you need a custom widget with a specific functionality - please contact info@elinsoftware.com.
+
+## Update history
+- 10-30-2020: restrict submission if a signature pad is empty (no signature)
+- 03-27-2020: initial release
